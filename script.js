@@ -1,3 +1,18 @@
+$(document).ready(function(){
+  // Show Card Composer
+  $(".open-card-composer").click(function(){
+    $(".card-composer").show();
+  });
+  // Hide Card Composer
+  $(".js-cancel").click(function(){
+    $(".card-composer").hide();
+  });
+
+
+
+}); // Document Ready
+
+
 //My Modal
 
 // Get the modal
@@ -30,7 +45,3 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
-
-
-

@@ -1,5 +1,5 @@
 <!doctype html>
-<html> 
+<html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
@@ -19,7 +19,7 @@
    <button id="closeModal">Understood / Verstanden</button>
   </div> <!-- #myModal .modal -->
 
-</div> <!-- .modal-content
+</div> <!-- .modal-content -->
 
 <!-- Header -->
 <div id="surface">
@@ -48,7 +48,7 @@
 			<div  id="bell" class="header-btn icon">
 				<i class="fa fa-bell fa-lg" aria-hidden="true"></i>
 			</div>
-			
+
 		</div>
 	</div>
 
@@ -63,9 +63,9 @@
 		<a class="board-header-btn board-header-btn-org" href="#"><span class="board-header-btn-text">Blogs und Webseiten</span></a>
 		<a class="board-header-btn board-header-btn-star" href="#"><span class="board-header-btn-text"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i></span></a>
 		<a class="board-header-btn board-header-btn-team" href="#"><span class="board-header-btn-text"><i class="fa fa-users fa-lg" aria-hidden="true"></i></span><span class="board-header-btn-text">Für Team sichtbar</span></a>
-		
+
 		<a class="board-header-btn board-header-btn-right"><span class="board-header-btn-text"><i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i></span><span class="board-header-btn-text">Menü anzeigen</span></a>
-		
+
 	</div>
 
 	<!-- Board Content -->
@@ -98,9 +98,17 @@
 						<a class="list-card-title" dir="auto" href="#">Web-Developer Course Javascript</a>
 					</div> <!-- list-card-details -->
 					</div> <!-- list-card -->
-					<div class="card-composer">
+					<div class="card-composer hide">
 						<textarea class="list-card-composer-textarea js-card-title" dir="auto" style="overflow: hidden; word-wrap: break-word; height: 36px;"></textarea>
-						<div class="cc-controls u-clearfix"><div class="cc-controls-section"><input class="primary confirm mod-compact js-add-card" type="submit" value="Hinzufügen"><a class="icon-lg icon-close dark-hover js-cancel" href="#"><i class="fa fa-times fa-lg" aria-hidden="true"></i></a></div><div class="cc-controls-section mod-right"><a class="list-header-extras-menu" href="#"><i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i></a></div></div>
+						<div class="cc-controls u-clearfix">
+							<div class="cc-controls-section">
+								<input class="primary confirm mod-compact js-add-card" type="submit" value="Hinzufügen">
+								<a class="icon-lg icon-close dark-hover js-cancel" href="#"><i class="fa fa-times fa-lg" aria-hidden="true"></i></a>
+							</div>
+							<div class="cc-controls-section mod-right">
+								<a class="list-header-extras-menu" href="#"><i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i></a>
+							</div>
+						</div>
 					</div> <!--card-composer-->
 
 			</div> <!-- list-cards -->
@@ -131,6 +139,18 @@
 						<a class="list-card-title" dir="auto" href="#">Trello Clone</a>
 					</div> <!-- list-card-details -->
 				</div> <!-- list-card -->
+				<div class="card-composer hide">
+					<textarea class="list-card-composer-textarea js-card-title" dir="auto" style="overflow: hidden; word-wrap: break-word; height: 36px;"></textarea>
+					<div class="cc-controls u-clearfix">
+						<div class="cc-controls-section">
+							<input class="primary confirm mod-compact js-add-card" type="submit" value="Hinzufügen">
+							<a class="icon-lg icon-close dark-hover js-cancel" href="#"><i class="fa fa-times fa-lg" aria-hidden="true"></i></a>
+						</div>
+						<div class="cc-controls-section mod-right">
+							<a class="list-header-extras-menu" href="#"><i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div> <!--card-composer-->
 			</div> <!-- list-cards -->
 				<a class="open-card-composer" href="#">Eine Karte hinzufügen...</a>
 		<div> <!-- list-content -->
@@ -159,6 +179,18 @@
 						<a class="list-card-title" dir="auto" href="#">Web-Developer Course HTML & CSS</a>
 					</div> <!-- list-card-details -->
 				</div> <!-- list-card -->
+				<div class="card-composer hide">
+					<textarea class="list-card-composer-textarea js-card-title" dir="auto" style="overflow: hidden; word-wrap: break-word; height: 36px;"></textarea>
+					<div class="cc-controls u-clearfix">
+						<div class="cc-controls-section">
+							<input class="primary confirm mod-compact js-add-card" type="submit" value="Hinzufügen">
+							<a class="icon-lg icon-close dark-hover js-cancel" href="#"><i class="fa fa-times fa-lg" aria-hidden="true"></i></a>
+						</div>
+						<div class="cc-controls-section mod-right">
+							<a class="list-header-extras-menu" href="#"><i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div> <!--card-composer-->
 			</div> <!-- list-cards -->
 				<a class="open-card-composer" href="#">Eine Karte hinzufügen...</a>
 		<div> <!-- list-content -->
@@ -176,9 +208,10 @@
 </div> <!-- board-canvas -->
 </div> <!-- board-content -->
 
-</div>	
+</div>
 </div> <!-- surface -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
