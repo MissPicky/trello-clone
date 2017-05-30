@@ -470,6 +470,17 @@ textarea.list-header-name {
   -ms-user-select: none;
   user-select: none;
 }
+textarea.list-card-composer-textarea, textarea.list-card-composer-textarea:focus {
+    background: white;
+    border: none;
+    box-shadow: none;
+    height: auto;
+    margin-bottom: 4px;
+    max-height: 162px;
+    min-height: 54px;
+    overflow-y: auto;
+    padding: 0;
+}
 .open-card-composer:hover {
 	text-decoration:underline;
 }
@@ -500,4 +511,14 @@ textarea.list-header-name {
   color: rgba(255,255,255,.7);
   -webkit-transition: color 85ms ease-in;
   transition: color 85ms ease-in;
+}
+.list-wrapper.mod-add .list-name-input {
+    background: rgba(0,0,0,.05);
+    border-color: #aaa;
+    box-shadow: inset 0 1px 8px rgba(0,0,0,.15);
+    display: block;
+    margin: 0;
+    -webkit-transition: margin 85ms ease-in,background 85ms ease-in;
+    transition: margin 85ms ease-in,background 85ms ease-in;
+    width: 100%;
 }
